@@ -31,9 +31,9 @@ export default function Stopwatch() {
 
   return (
     <div>
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <div>
-        <h2>Time:{formatTime()}</h2>
+        <h2>Time: {formatTime()}</h2>
       </div>
       <div>
         <button onClick={handleStartStop}>
